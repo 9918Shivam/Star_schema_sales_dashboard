@@ -19,10 +19,9 @@ This is the **data analyst equivalent of a deployed web application** — just a
 
 ---
 
-## 🔴 Dashboard
-> 📸 **Dashboard Preview:**
+## 📸 **Dashboard Preview:** 
 
-![Dashboard Screenshot](./screenshots/dashboard_preview.png)
+![dashboard_preview](./screenshots/dashboard_preview.png)
 
 ---
 
