@@ -22,7 +22,7 @@ This is the **data analyst equivalent of a deployed web application** — just a
 ## 🔴 Dashboard
 > 📸 **Dashboard Preview:**
 
-![Dashboard Screenshot](screenshots/dashboard_preview.png)
+![Dashboard Screenshot](./screenshots/dashboard_preview.png)
 
 ---
 
@@ -223,18 +223,23 @@ Sales by Manager = CALCULATE([Total Sales], ALLEXCEPT('Sales_Data', 'Sales_Data'
 ## ❓ Frequently Asked Interview Questions About This Project
 
 **Q: What problem did you solve?**
-A: Fragmented sales data across 5 Excel files with no unified view. Built a Star Schema model and dashboard so management can track sales by product, state, manager, and payment mode in real time.
+
+Ans: Fragmented sales data across 5 Excel files with no unified view. Built a Star Schema model and dashboard so management can track sales by product, state, manager, and payment mode in real time.
 
 **Q: Why did you use a Star Schema?**
+
 Ans: Star Schema separates facts (transactions) from dimensions (products, states, payments), which makes Power BI queries faster, relationships cleaner, and the model easier to maintain and scale.
 
 **Q: What insights did you find?**
+
 Ans: Gujarat leads in revenue, Kuldeep Pandey is the top manager, T-Shirts are the best-selling sub-product, and Net Banking + COD are dominant payment methods.
 
 **Q: How is this different from just making charts in Excel?**
+
 Ans: Power BI with a Star Schema creates a relational model — all 5 tables are connected. A single slicer (e.g., State = Gujarat) filters every visual simultaneously, which is impossible to replicate cleanly in Excel.
 
 **Q: What would you improve if given more data?**
+
 Ans: Add a full year of data to detect seasonality, include a customer dimension for cohort analysis, and build a forecasting model using Power BI's AI visuals.
 
 ## 📄 License
