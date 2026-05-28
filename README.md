@@ -21,7 +21,7 @@ This is the **data analyst equivalent of a deployed web application** — just a
 
 ## 📸 **Dashboard Preview:** 
 
-![dashboard_preview](./screenshots/dashboard_preview.png)
+![Star_schema_dashboard](screenshorts/dashboard_preview.png)
 
 ---
 
